@@ -1,0 +1,7 @@
+Herramientas aportadas por OpenBootCamp
+
+coolors 
+https://coolors.co/
+
+Pure Css - install CDN ó nmp tipo Bootstrap
+https://purecss.io/

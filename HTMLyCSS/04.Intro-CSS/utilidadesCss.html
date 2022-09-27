@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilidades CSS</title>
+
+    <!-- estilos CSS en local, interna -->
+    <link rel="stylesheet" href="estilos.css">
+
+    <!-- estilos CSS en la misma página-->
+    <style>
+        html{
+            padding: 15px;
+        }
+        p {
+            color: #ff0000;
+        }
+    </style>
+
+    <!-- estilos externos mediante CDN, parecido a bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+</head>
+<body>
+    <p>HOLA</p>
+    <!-- codificación aportada por los estilos CSS del CDN -->
+    <a class="pure-button" href="#">Button con tag anchor</a>
+    <button class="pure-button">Button con tag button</button>
+
+
+    <!-- estilos en línea CSS -->
+    <button style="padding: 10px; border: none; border-radius: 10px;">Botón personalizado</button>
+</body>
+</html>

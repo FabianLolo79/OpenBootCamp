@@ -1,0 +1,27 @@
+/* * {
+    color: yellowgreen;
+} */
+
+h1 {
+    color: #ff0000;
+}
+
+/* Comentario en css */
+p {
+    color: #0000ff;
+    font-size: 16pt;
+}
+/* selectores de id */
+#primera-noticia {
+    color: #00ff00;
+    font-size: 12pt;
+}
+
+#segunda-noticia {
+    color: coral;
+}
+/* selectores de class */
+.encabezado {
+    font-size: 24pt;
+    text-transform: uppercase;
+}

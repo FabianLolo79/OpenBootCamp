@@ -1,0 +1,54 @@
+.colores {
+    color: #ff0000;
+}
+
+.color-hexadecimal {
+    color: #F7C548;
+}
+
+.color-rgb {
+    color: rgb(100, 0, 200);
+}
+
+.color-rgba {
+    color: rgba(10, 10, 10, 0.2);
+}
+
+/* Fondos */
+
+.fondo {
+    background-image: url("https://i.pinimg.com/736x/8b/72/c8/8b72c8cef0f9329da53391a9b89630a4--space-wallpaper-city-wallpaper.jpg");
+    /* centrado de img de fondo */
+    background-position: right bottom;
+}
+
+.fondo-interno {
+    background-image: url("https://i7x7p5b7.stackpathcdn.com/codrops/wp-content/uploads/2015/01/blend-mode-example-screenshot.png");
+    /* centrado de img de fondo */
+    background-position: center center;
+}
+
+h3, p, h1 {
+    color: #000000;
+}
+
+/* tamaños */
+.ancho{
+    background-color: #ff0000;
+    width: 150px;
+}
+
+.alto{
+    background-color: #fff2a8;
+    height: 500px;
+    width: 300px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+    /* border-top: none; */
+    padding: 10px 20px; 
+    margin: 20px;
+}
