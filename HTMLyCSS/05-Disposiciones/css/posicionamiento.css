@@ -1,0 +1,43 @@
+div {
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* nos permite posicionarnos en relacion a la posicion si fuera static-original */
+.relative {
+   position: relative;
+   left: 80px;
+   margin-left: 10px;
+}
+
+/* Posicionamiento fijo - se posiciona en relación al viewport/pantalla */
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: greenyellow;
+    z-index: 10;
+}
+
+/* Posicionamiento absoluto */
+.absolute{
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+    background-color: antiquewhite;
+}
+
+.relative.contenedor {
+    width: 400px;
+    height: 1600px;
+    background-color: blue;
+}
+
+/* Posicionamiento pegajoso - al hacer scrool queda  pegado ej menu encabezado */
+.sticky {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color: cadetblue;
+}

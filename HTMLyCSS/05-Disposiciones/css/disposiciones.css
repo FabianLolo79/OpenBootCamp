@@ -1,0 +1,21 @@
+.div-1, .div-2 {
+    background-color: #ff0000;
+    /* display: block; POR DEFECTO tienen las etiquetas div */
+}
+
+.span-1 {
+    background-color: aquamarine;
+    /* display: inline; POR DEFECTO tienen las etiquetas span */
+    float: left;
+}
+.span-2 {
+    background-color: aquamarine;
+    /* display: inline; POR DEFECTO tienen las etiquetas span */
+    float: right;
+}
+
+.img {
+    width: 100px;
+    height: 60px;
+    /* display: inline-block; POR DEFECTO tienen las etiquetas img lo que te facilita cambiar su alto o ancho */
+}
