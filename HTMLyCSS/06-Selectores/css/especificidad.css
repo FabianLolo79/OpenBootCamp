@@ -1,0 +1,20 @@
+/* especificidad (1,0,0) es mas alto - */
+/* especificidad (0,1,0) es mas alta - */
+/* especificidad (0,0,1) es mas alta - */
+/* especificidad (0,0,0) es la mas baja - */
+
+#h1-id {
+    color: darksalmon;
+}
+
+.h1-clase {
+    color: yellow !important;
+}
+
+h1 {
+    color: blue !important; /*evitar en lo posible este !important*/
+}
+
+p {
+    color: red;
+}

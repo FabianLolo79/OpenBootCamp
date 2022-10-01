@@ -1,0 +1,11 @@
+/* anidación de selectores */
+
+section.main .contenedor p {
+    color: blue;
+}
+
+.contenedor #boton-contenedor {
+    background-color: yellow;
+}
+
+
